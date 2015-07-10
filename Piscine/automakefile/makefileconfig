@@ -1,0 +1,12 @@
+main.c;fakeProj.h
+EXEC;fakeProj
+calc.c;fakeProj.h;calc/calcul.h
+REP;project
+COMP;clang
+SOURCES;.
+CFLAGS;
+LDFLAGS;
+HEADERS;include
+REP_SVG;fakeProj_SVG
+ZIP;tar
+ZIPFLAGS;-cvvf

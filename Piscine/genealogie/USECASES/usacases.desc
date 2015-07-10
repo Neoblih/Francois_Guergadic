@@ -1,0 +1,44 @@
+:1_test_no_param
+@ 
+<
+> Usage: ./genealogie rep file
+
+:2_test_wrong_dir
+@ yolo_swagg_nocare nocare
+<
+> Bad argument, can't open dir or read file
+
+:3_test_part_1_1
+@ Simpson Bart
+< 1
+> #test_1_1
+
+:4_test_part_1_2
+@ Simpson Yolo
+< 1
+> #test_1_1
+
+:5_test_part_2_1
+@ Simpson Bart
+< 2
+> #test_2_1
+
+:6_test_part_2_2
+@ Simpson Yolo
+< 2
+> Erreur: Il n'y a pas de Yolo dans la famille Simpson!
+
+:7_test_part_3_1
+@ Simpson Bart
+< 2
+> #test_3_1
+
+:8_test_part_3_2
+@ Simpson Bart
+< 3
+> Error: Yolo n'existe pas!
+
+:9_test_bad_number
+@ Simpson Bart
+< 8
+> Bad number
